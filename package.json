@@ -14,6 +14,8 @@
         "url": "https://github.com/vsnthdev/vsnthdev.git"
     },
     "scripts": {},
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+        "axios": "^0.24.0",
+        "es-dirname": "^0.1.0"
+    }
 }
