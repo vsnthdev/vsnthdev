@@ -8,6 +8,7 @@ import dirname from 'es-dirname'
 import fs from 'fs/promises'
 import path from 'path'
 import getTweets from './tweets.js';
+import getVideos from './videos.js';
 
 // read the template README.md file
 const template = await fs.readFile(
@@ -20,7 +21,7 @@ const dest = path.join(dirname(), '..', 'README.md')
 
 // replace the appropriate placeholders and save the rendered
 // string of markdown in the content variable
-const content = template.replace('<!-- tweets -->', await getTweets())
+const content = template.replace('<!-- tweets -->', await getTweets()).replace('<!-- videos -->', await getVideos())
 
 // write the rendered file
 await fs.writeFile(dest, content, 'utf-8')

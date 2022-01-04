@@ -5,6 +5,6 @@
 ### 🐦 Recent Tweets
 <!-- tweets -->
 
-<!-- ### 📹 Recent Videos -->
+### 📹 Recent Videos
 <!-- videos -->
 

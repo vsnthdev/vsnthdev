@@ -1,5 +1,5 @@
 /*
- *  Fetches my recently uploaded YouTube videos using my own API.
+ *  Fetches my recent curated tweets from mahat API.
  *  Created On 05 January 2022
  */
 
