@@ -15,4 +15,3 @@
 3. <a href="https://www.youtube.com/watch?v=Dxx2VVPnOT4" target="_blank" rel="noopener"><strong>🖥️ Workstation 2020 | Hackintoshing i5-9600K with Radeon RX580</strong></a>
 4. <a href="https://www.youtube.com/watch?v=k0kKbDDlLTY" target="_blank" rel="noopener"><strong>🔒 Securing SSH Server: Configuration</strong></a>
 5. <a href="https://www.youtube.com/watch?v=E4yRcmQqvWM" target="_blank" rel="noopener"><strong>Compiling The Linux Kernel On Ubuntu &amp; Debian</strong></a>
-
