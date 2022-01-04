@@ -16,7 +16,7 @@ export default async () => {
     data.length = 5
 
     // convert the objects from API response into markdown strings
-    data = data.map(({name, url}) => `- <a href="${url}" target="_blank" rel="noopener">${name}`)
+    data = data.map(({name, url}) => `- <a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a>`)
 
     // convert the array of strings into a single string
     return data.join('\n')
