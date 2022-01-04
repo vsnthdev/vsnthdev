@@ -7,17 +7,21 @@ import axios from 'axios'
 
 export default async () => {
     // fetch tweets from mahat
-    let { data } = await axios({
+    let { data: tweets } = await axios({
         method: 'GET',
         url: 'https://api.vsnth.dev/tweets'
     })
 
     // limit to only 5 tweets, discard others
-    data.length = 5
+    tweets.length = 5
 
     // convert the objects from API response into markdown strings
-    data = data.map(({name, url}) => `- <a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a>`)
+    for (const index in tweets) {
+        const {name, url} = tweets[index]
+
+        tweets[index] = `${Number(index) + 1}. <a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a>`
+    }
 
     // convert the array of strings into a single string
-    return data.join('\n')
+    return tweets.join('\n')
 }
