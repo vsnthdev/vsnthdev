@@ -10,22 +10,27 @@ import path from 'path'
 import getTweets from './tweets.js';
 import getVideos from './videos.js';
 
-// fetch all the required responses from APIs in parallel
-// before we start to construct the README.md file
-const [tweets, videos] = await Promise.all([await getTweets(), await getVideos()])
+try {
+    // fetch all the required responses from APIs in parallel
+    // before we start to construct the README.md file
+    const [tweets, videos] = await Promise.all([await getTweets(), await getVideos()])
 
-// read the template README.md file
-const template = await fs.readFile(
-    path.join(dirname(), '..', 'README.template.md'),
-    'utf-8',
-)
+    // read the template README.md file
+    const template = await fs.readFile(
+        path.join(dirname(), '..', 'README.template.md'),
+        'utf-8',
+    )
 
-// the path where we'll write our rendered README.md file
-const dest = path.join(dirname(), '..', 'README.md')
+    // the path where we'll write our rendered README.md file
+    const dest = path.join(dirname(), '..', 'README.md')
 
-// replace the appropriate placeholders and save the rendered
-// string of markdown in the content variable
-const content = template.replace('<!-- tweets -->', tweets).replace('<!-- videos -->', videos)
+    // replace the appropriate placeholders and save the rendered
+    // string of markdown in the content variable
+    const content = template.replace('<!-- tweets -->', tweets).replace('<!-- videos -->', videos)
 
-// write the rendered file
-await fs.writeFile(dest, content.trim() + '\n', 'utf-8')
+    // write the rendered file
+    await fs.writeFile(dest, content.trim() + '\n', 'utf-8')
+} catch (err) {
+    console.log(err)
+    process.exit(0)
+}
