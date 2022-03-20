@@ -3,11 +3,11 @@
 <hr>
 
 ### 🐦 Recent Tweets
-1. <a href="https://twitter.com/vsnthdev/status/1499739082313940994" target="_blank" rel="noopener"><strong>💡 Did you know? You can use emoji ✨ in Git branch names?</strong></a>
-2. <a href="https://twitter.com/vsnthdev/status/1492115234936532992" target="_blank" rel="noopener"><strong>slugify.online create URL-safe string out of any given text ✍️</strong></a>
-3. <a href="https://twitter.com/vsnthdev/status/1484867471169531904" target="_blank" rel="noopener"><strong>Hapi.js — An alternative to Express.js</strong></a>
-4. <a href="https://twitter.com/vsnthdev/status/1478705993894662144" target="_blank" rel="noopener"><strong>Inspecting 👨‍💻 VSCode's code just like any other website</strong></a>
-5. <a href="https://twitter.com/vsnthdev/status/1474720668491173889" target="_blank" rel="noopener"><strong>2021 Mega Wrap 🎉</strong></a>
+1. <a href="https://twitter.com/vsnthdev/status/1508651447663087617" target="_blank" rel="noopener"><strong>Semantic Versioning Explained</strong></a>
+2. <a href="https://twitter.com/vsnthdev/status/1499739082313940994" target="_blank" rel="noopener"><strong>💡 Did you know? You can use emoji ✨ in Git branch names?</strong></a>
+3. <a href="https://twitter.com/vsnthdev/status/1492115234936532992" target="_blank" rel="noopener"><strong>slugify.online create URL-safe string out of any given text ✍️</strong></a>
+4. <a href="https://twitter.com/vsnthdev/status/1484867471169531904" target="_blank" rel="noopener"><strong>Hapi.js — An alternative to Express.js</strong></a>
+5. <a href="https://twitter.com/vsnthdev/status/1478705993894662144" target="_blank" rel="noopener"><strong>Inspecting 👨‍💻 VSCode's code just like any other website</strong></a>
 
 ### 📹 Recent Videos
 1. <a href="https://www.youtube.com/watch?v=ae_-6H03gPc" target="_blank" rel="noopener"><strong>📂 Files: The Modern File Explorer For Windows</strong></a>
