@@ -9,11 +9,12 @@ import fs from 'fs/promises'
 import path from 'path'
 import getTweets from './tweets.js';
 import getVideos from './videos.js';
+import getArticles from './articles.js';
 
 try {
     // fetch all the required responses from APIs in parallel
     // before we start to construct the README.md file
-    const [tweets, videos] = await Promise.all([await getTweets(), await getVideos()])
+    const [tweets, videos, articles] = await Promise.all([await getTweets(), await getVideos(), await getArticles()])
 
     // read the template README.md file
     const template = await fs.readFile(
@@ -26,7 +27,10 @@ try {
 
     // replace the appropriate placeholders and save the rendered
     // string of markdown in the content variable
-    const content = template.replace('<!-- tweets -->', tweets).replace('<!-- videos -->', videos)
+    const content = template
+        .replace('<!-- tweets -->', tweets)
+        .replace('<!-- videos -->', videos)
+        .replace('<!-- articles -->', articles)
 
     // write the rendered file
     await fs.writeFile(dest, content.trim() + '\n', 'utf-8')

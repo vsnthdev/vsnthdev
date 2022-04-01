@@ -8,3 +8,6 @@
 ### 📹 Recent Videos
 <!-- videos -->
 
+### 📘 Recent Articles
+<!-- articles -->
+
