@@ -4,12 +4,17 @@
  */
 
 import axios from 'axios'
+import log from './logger.js'
+import chalk from 'chalk'
 
 export default async () => {
+    const URL = 'https://api.vsnth.dev/tweets'
+    log.verbose(`Sending GET ${chalk.gray.underline(URL)}`)
+
     // fetch tweets from mahat
     let { data: tweets } = await axios({
         method: 'GET',
-        url: 'https://api.vsnth.dev/tweets'
+        url: URL
     })
 
     // limit to only 5 tweets, discard others
@@ -23,5 +28,6 @@ export default async () => {
     }
 
     // convert the array of strings into a single string
+    log.info('Fetched tweets from Twitter')
     return tweets.join('\n')
 }

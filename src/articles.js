@@ -4,12 +4,17 @@
  */
 
 import axios from 'axios'
+import log from './logger.js'
+import chalk from 'chalk'
 
 export default async () => {
+    const URL = 'https://api.vsnth.dev/articles'
+    log.verbose(`Sending GET ${chalk.gray.underline(URL)}`)
+
     // fetch articles from mahat
     let { data: articles } = await axios({
         method: 'GET',
-        url: 'https://api.vsnth.dev/articles'
+        url: URL
     })
 
     // limit to only 5 articles, discard others
@@ -23,5 +28,6 @@ export default async () => {
     }
 
     // convert the array of strings into a single string
+    log.info('Fetched articles from blog')
     return articles.join('\n')
 }

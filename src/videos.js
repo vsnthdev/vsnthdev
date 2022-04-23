@@ -4,12 +4,17 @@
  */
 
 import axios from 'axios'
+import log from './logger.js'
+import chalk from 'chalk'
 
 export default async () => {
+    const URL = 'https://api.vsnth.dev/videos'
+    log.verbose(`Sending GET ${chalk.gray.underline(URL)}`)
+
     // fetch videos from mahat
     let { data: videos } = await axios({
         method: 'GET',
-        url: 'https://api.vsnth.dev/videos'
+        url: URL
     })
 
     // limit to only 5 videos, discard others
@@ -23,5 +28,6 @@ export default async () => {
     }
 
     // convert the array of strings into a single string
+    log.info('Fetched videos from YouTube channel')
     return videos.resources.join('\n')
 }
