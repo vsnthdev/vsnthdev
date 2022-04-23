@@ -23,11 +23,10 @@ export default async () => {
     // convert the objects from API response into markdown strings
     for (const index in articles) {
         const {title, url} = articles[index]
-
-        articles[index] = `${Number(index) + 1}. <a href="${url}" target="_blank" rel="noopener"><strong>${title}</strong></a>`
+        articles[index] = `| 📘 | <a href="${url}" target="_blank" rel="noopener"><strong>${title}</strong></a> |`
     }
 
     // convert the array of strings into a single string
     log.info('Fetched articles from blog')
-    return articles.join('\n')
+    return articles
 }

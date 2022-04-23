@@ -2,12 +2,7 @@
 
 <hr>
 
-### 🐦 Recent Tweets
-<!-- tweets -->
-
-### 📹 Recent Videos
-<!-- videos -->
-
-### 📘 Recent Articles
-<!-- articles -->
-
+## ✨ Content I've recently published
+| Type | Title |
+| --- | --- |
+<!-- content -->

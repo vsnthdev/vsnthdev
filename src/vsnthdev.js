@@ -17,7 +17,7 @@ try {
     // fetch all the required responses from APIs in parallel
     // before we start to construct the README.md file
     log.info('Fetching data from APIs')
-    const [tweets, videos, articles] = await Promise.all([await getTweets(), await getVideos(), await getArticles()])
+    const modules = await Promise.all([await getTweets(), await getVideos(), await getArticles()])
 
     // read the template README.md file
     log.verbose('Reading template file')
@@ -29,21 +29,27 @@ try {
     // the path where we'll write our rendered README.md file
     const dest = path.join(dirname(), '..', 'README.md')
 
+    // mix the content from different sources to create a timeline
+    const content = []
+    for (let index = 0; index < 5; index ++) {
+        for (const module of modules) {
+            if (module[index]) content.push(module[index])
+        }
+    }
+
     // replace the appropriate placeholders and save the rendered
     // string of markdown in the content variable
     log.verbose('Rendering the template')
-    const content = template
-        .replace('<!-- tweets -->', tweets)
-        .replace('<!-- videos -->', videos)
-        .replace('<!-- articles -->', articles)
+    const rendered = template
+        .replace('<!-- content -->', content.join('\n'))
 
     // write the rendered file
     log.verbose(`Writing ${chalk.gray.underline('README.md')} file`)
-    await fs.writeFile(dest, content.trim() + '\n', 'utf-8')
+    await fs.writeFile(dest, rendered.trim() + '\n', 'utf-8')
 
     // tell the user, we're done
     log.success(`Finished writing ${chalk.gray.underline('README.md')} file`)
 } catch (err) {
-    log.err(err)
+    log.error(err)
     process.exit(0)
 }

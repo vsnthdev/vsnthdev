@@ -23,11 +23,10 @@ export default async () => {
     // convert the objects from API response into markdown strings
     for (const index in videos.resources) {
         const {id,title} = videos.resources[index]
-
-        videos.resources[index] = `${Number(index) + 1}. <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener"><strong>${title}</strong></a>`
+        videos.resources[index] = `| 📹 | <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener"><strong>${title}</strong></a> |`
     }
 
     // convert the array of strings into a single string
     log.info('Fetched videos from YouTube channel')
-    return videos.resources.join('\n')
+    return videos.resources
 }

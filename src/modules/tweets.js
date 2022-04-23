@@ -23,11 +23,10 @@ export default async () => {
     // convert the objects from API response into markdown strings
     for (const index in tweets) {
         const {name, url} = tweets[index]
-
-        tweets[index] = `${Number(index) + 1}. <a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a>`
+        tweets[index] = `| 🐦 | <a href="${url}" target="_blank" rel="noopener"><strong>${name}</strong></a> |`
     }
 
     // convert the array of strings into a single string
     log.info('Fetched tweets from Twitter')
-    return tweets.join('\n')
+    return tweets
 }
