@@ -4,7 +4,7 @@
  */
 
 import axios from 'axios'
-import log from './logger.js'
+import log from '../logger.js'
 import chalk from 'chalk'
 
 export default async () => {

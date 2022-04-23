@@ -9,9 +9,9 @@ import fs from 'fs/promises'
 import path from 'path'
 import chalk from 'chalk'
 import log from './logger.js'
-import getTweets from './tweets.js'
-import getVideos from './videos.js'
-import getArticles from './articles.js'
+import getTweets from './modules/tweets.js'
+import getVideos from './modules/videos.js'
+import getArticles from './modules/articles.js'
 
 try {
     // fetch all the required responses from APIs in parallel
