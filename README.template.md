@@ -29,5 +29,10 @@
     <img width="20" src="https://cdn0.iconfinder.com/data/icons/social-media-2474/128/youtube_logo_social_media_social_media_network-512.png" alt="YouTube">
 </a> <br> <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=vsnthdev" alt="Vasanth's GitHub statistics">
+<a href="https://vas.cx/github#gh-light-mode-only">
+    <img src="https://github-readme-stats.vercel.app/api?username=vsnthdev&count_private=true&show_icons=true&custom_title=GitHub%20Statistics%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&disable_animations=true" alt="Vasanth's GitHub statistics">
+</a>
+<a href="https://vas.cx/github#gh-dark-mode-only">
+    <img src="https://github-readme-stats.vercel.app/api?username=vsnthdev&count_private=true&show_icons=true&custom_title=GitHub%20Statistics%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&disable_animations=true&border_color=475569&bg_color=1A1E23&text_color=B3E3F9&icon_color=00A7E1&title_color=00A7E1" alt="Vasanth's GitHub statistics">
+</a>
 
