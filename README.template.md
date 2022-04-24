@@ -27,4 +27,7 @@
 </a> 
 <a href="https://vas.cx/videos" target="_blank" rel="noopener">
     <img width="20" src="https://cdn0.iconfinder.com/data/icons/social-media-2474/128/youtube_logo_social_media_social_media_network-512.png" alt="YouTube">
-</a> 
+</a> <br> <br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=vsnthdev" alt="Vasanth's GitHub statistics">
+
