@@ -1,7 +1,7 @@
 ### 👋 Hello, I'm
 ## Vasanth Srivatsa <small>(aka. Vasanth Developer)</small>
 
-## ✨ Content I've recently published
+### ✨ Content I've recently published
 | Type | Title |
 | --- | --- |
 | 🐦 | <a href="https://twitter.com/vsnthdev/status/1516770719874625542" target="_blank" rel="noopener"><strong>Me building my internet empire 🧑‍💻</strong></a> |
@@ -18,7 +18,16 @@
 | 🐦 | <a href="https://twitter.com/vsnthdev/status/1508651447663087617" target="_blank" rel="noopener"><strong>Semantic Versioning Explained</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=E4yRcmQqvWM" target="_blank" rel="noopener"><strong>Compiling The Linux Kernel On Ubuntu &amp; Debian</strong></a> |
 
-## 🤝 Connect with me on
+### 👨‍💻 My Todoist numbers
+```php
+🥇 11,208 Karma points
+⚡ 2 tasks completed today
+🗓️ 12 tasks completed this week
+✅ 1,209 tasks completed till now
+⌛ Longest streak is 6 days
+```
+
+### 🤝 Connect with me on
 
 <a href="https://vas.cx/twitter" target="_blank" rel="noopener">
     <img width="20" src="https://cdn0.iconfinder.com/data/icons/social-media-2474/128/twitter_social_media_social_media_network-512.png" alt="Twitter">

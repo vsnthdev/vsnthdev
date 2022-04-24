@@ -12,12 +12,18 @@ import log from './logger.js'
 import getTweets from './modules/tweets.js'
 import getVideos from './modules/videos.js'
 import getArticles from './modules/articles.js'
+import getProfile from './modules/profile.js'
 
 try {
     // fetch all the required responses from APIs in parallel
     // before we start to construct the README.md file
     log.info('Fetching data from APIs')
-    const modules = await Promise.all([await getTweets(), await getVideos(), await getArticles()])
+    const [ tweets, videos, articles, profile ] = await Promise.all([
+        getTweets(),
+        getVideos(),
+        getArticles(),
+        getProfile()
+    ])
 
     // read the template README.md file
     log.verbose('Reading template file')
@@ -32,7 +38,7 @@ try {
     // mix the content from different sources to create a timeline
     const content = []
     for (let index = 0; index < 5; index ++) {
-        for (const module of modules) {
+        for (const module of [tweets, videos, articles]) {
             if (module[index]) content.push(module[index])
         }
     }
@@ -42,6 +48,7 @@ try {
     log.verbose('Rendering the template')
     const rendered = template
         .replace('<!-- content -->', content.join('\n'))
+        .replace('<!-- todoist -->', profile.todoist)
 
     // write the rendered file
     log.verbose(`Writing ${chalk.gray.underline('README.md')} file`)

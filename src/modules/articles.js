@@ -4,8 +4,8 @@
  */
 
 import axios from 'axios'
-import log from '../logger.js'
 import chalk from 'chalk'
+import log from '../logger.js'
 
 export default async () => {
     const URL = 'https://api.vsnth.dev/articles'
