@@ -4,6 +4,9 @@
 ### ✨ Content I've recently published
 | Type | Title |
 | --- | --- |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1530528819534131201" target="_blank" rel="noopener"><strong>CodeToImg lets you create these beautiful 😍 code screenshots</strong></a> |
+| 📹 | <a href="https://www.youtube.com/watch?v=NhEn4H5UK9A" target="_blank" rel="noopener"><strong>Most of you don't know 🙅‍♂️ the meaning of open-source 🤷‍♂️</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/syncing-system-clock-with-docker-containers/" target="_blank" rel="noopener"><strong>Syncing System Clock With Docker Containers</strong></a> |
 | 🐦 | <a href="https://twitter.com/vsnthdev/status/1522557107341606913" target="_blank" rel="noopener"><strong>6️⃣ Projects Every JavaScript Developer Must Try</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=ae_-6H03gPc" target="_blank" rel="noopener"><strong>📂 Files: The Modern File Explorer For Windows</strong></a> |
 | 📘 | <a href="https://vasanthdeveloper.com/software-licenses-explained/" target="_blank" rel="noopener"><strong>How Does Software Licensing Work?</strong></a> |
@@ -15,15 +18,13 @@
 | 📘 | <a href="https://vasanthdeveloper.com/migrating-from-vps-to-kubernetes/" target="_blank" rel="noopener"><strong>Migrating From VPS To Kubernetes</strong></a> |
 | 🐦 | <a href="https://twitter.com/vsnthdev/status/1515683108107993091" target="_blank" rel="noopener"><strong>7️⃣ Evergreen Resources To Learn JavaScript</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=k0kKbDDlLTY" target="_blank" rel="noopener"><strong>🔒 Securing SSH Server: Configuration</strong></a> |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1509933108681924608" target="_blank" rel="noopener"><strong>Making a website doesn't cost anymore!</strong></a> |
-| 📹 | <a href="https://www.youtube.com/watch?v=E4yRcmQqvWM" target="_blank" rel="noopener"><strong>Compiling The Linux Kernel On Ubuntu &amp; Debian</strong></a> |
 
 ### 👨‍💻 My Todoist numbers
 ```php
-🥇 11,208 Karma points
-⚡ 4 tasks completed today
-🗓️ 14 tasks completed this week
-✅ 1,211 tasks completed till now
+🥇 11,331 Karma points
+⚡ 0 tasks completed today
+🗓️ 0 tasks completed this week
+✅ 1,241 tasks completed till now
 ⌛ Longest streak is 6 days
 ```
 

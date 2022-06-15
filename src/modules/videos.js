@@ -8,7 +8,7 @@ import log from '../logger.js'
 import chalk from 'chalk'
 
 export default async () => {
-    const URL = 'https://api.vsnth.dev/videos'
+    const URL = 'https://vsnth.dev/api/videos'
     log.verbose(`Sending GET ${chalk.gray.underline(URL)}`)
 
     // fetch videos from mahat

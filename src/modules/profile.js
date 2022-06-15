@@ -9,7 +9,7 @@ import { comma } from 'number-magic'
 import log from '../logger.js'
 
 export default async () => {
-    const URL = 'https://api.vsnth.dev'
+    const URL = 'https://vsnth.dev/api'
     log.verbose(`Sending GET ${chalk.gray.underline(URL)}`)
 
     // fetch profile info from mahat
