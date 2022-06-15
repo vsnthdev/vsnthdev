@@ -1,23 +1,24 @@
 {
     "name": "vsnthdev",
     "description": "Dynamically generates my GitHub profile README.md using my own API & GitHub Actions.",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "license": "Zlib",
     "type": "module",
+    "private": true,
     "author": {
         "name": "Vasanth Developer",
         "email": "vasanth@vasanthdeveloper.com",
         "url": "https://vsnth.dev"
     },
     "engines": {
-        "node": ">=17.x"
+        "node": ">=18.x"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/vsnthdev/vsnthdev.git"
     },
     "dependencies": {
-        "axios": "^0.26.1",
+        "axios": "^0.27.2",
         "chalk": "^5.0.1",
         "es-dirname": "^0.1.0",
         "itivrutaha": "^2.0.13",
