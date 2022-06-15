@@ -20,17 +20,10 @@
 
 ### 👨‍💻 My Todoist numbers
 ```php
-<<<<<<< HEAD
 🥇 11,208 Karma points
 ⚡ 4 tasks completed today
 🗓️ 14 tasks completed this week
 ✅ 1,211 tasks completed till now
-=======
-🥇 11,300 Karma points
-⚡ 0 tasks completed today
-🗓️ 3 tasks completed this week
-✅ 1,233 tasks completed till now
->>>>>>> f43d53d4fea60b4c637a0637defc1a91285f0e75
 ⌛ Longest streak is 6 days
 ```
 
