@@ -4,27 +4,28 @@
 ### ✨ Content I've recently published
 | Type | Title |
 | --- | --- |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1530528819534131201" target="_blank" rel="noopener"><strong>CodeToImg lets you create these beautiful 😍 code screenshots</strong></a> |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1551193760989466625" target="_blank" rel="noopener"><strong>The ping attribute on the anchor tag.</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=NhEn4H5UK9A" target="_blank" rel="noopener"><strong>Most of you don't know 🙅‍♂️ the meaning of open-source 🤷‍♂️</strong></a> |
-| 📘 | <a href="https://vasanthdeveloper.com/syncing-system-clock-with-docker-containers/" target="_blank" rel="noopener"><strong>Syncing System Clock With Docker Containers</strong></a> |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1522557107341606913" target="_blank" rel="noopener"><strong>6️⃣ Projects Every JavaScript Developer Must Try</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/alternatives-to-json/" target="_blank" rel="noopener"><strong>7 Alternatives To JSON</strong></a> |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1530528819534131201" target="_blank" rel="noopener"><strong>CodeToImg lets you create these beautiful 😍 code screenshots</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=ae_-6H03gPc" target="_blank" rel="noopener"><strong>📂 Files: The Modern File Explorer For Windows</strong></a> |
-| 📘 | <a href="https://vasanthdeveloper.com/software-licenses-explained/" target="_blank" rel="noopener"><strong>How Does Software Licensing Work?</strong></a> |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1516770719874625542" target="_blank" rel="noopener"><strong>Me building my internet empire 🧑‍💻</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/how-i-got-into-the-world-of-linux/" target="_blank" rel="noopener"><strong>How I Got Into The World Of Linux</strong></a> |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1522557107341606913" target="_blank" rel="noopener"><strong>6️⃣ Projects Every JavaScript Developer Must Try</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=LIIDPqIl-9o" target="_blank" rel="noopener"><strong>How To Format USB Flash Drive On A Mac</strong></a> |
-| 📘 | <a href="https://vasanthdeveloper.com/generating-ed25519-secure-ssh-keys/" target="_blank" rel="noopener"><strong>Generating Ed25519 Secure SSH Keys</strong></a> |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1516652415583457285" target="_blank" rel="noopener"><strong>🥳 Node.js v18 released & native fetch API is here 🙌</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/syncing-system-clock-with-docker-containers/" target="_blank" rel="noopener"><strong>Syncing System Clock With Docker Containers</strong></a> |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1516770719874625542" target="_blank" rel="noopener"><strong>Me building my internet empire 🧑‍💻</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=Dxx2VVPnOT4" target="_blank" rel="noopener"><strong>🖥️ Workstation 2020 | Hackintoshing i5-9600K with Radeon RX580</strong></a> |
-| 📘 | <a href="https://vasanthdeveloper.com/migrating-from-vps-to-kubernetes/" target="_blank" rel="noopener"><strong>Migrating From VPS To Kubernetes</strong></a> |
-| 🐦 | <a href="https://twitter.com/vsnthdev/status/1515683108107993091" target="_blank" rel="noopener"><strong>7️⃣ Evergreen Resources To Learn JavaScript</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/software-licenses-explained/" target="_blank" rel="noopener"><strong>How Does Software Licensing Work?</strong></a> |
+| 🐦 | <a href="https://twitter.com/vsnthdev/status/1516652415583457285" target="_blank" rel="noopener"><strong>🥳 Node.js v18 released & native fetch API is here 🙌</strong></a> |
 | 📹 | <a href="https://www.youtube.com/watch?v=k0kKbDDlLTY" target="_blank" rel="noopener"><strong>🔒 Securing SSH Server: Configuration</strong></a> |
+| 📘 | <a href="https://vasanthdeveloper.com/generating-ed25519-secure-ssh-keys/" target="_blank" rel="noopener"><strong>Generating Ed25519 Secure SSH Keys</strong></a> |
 
 ### 👨‍💻 My Todoist numbers
 ```php
-🥇 11,331 Karma points
+🥇 11,400 Karma points
 ⚡ 0 tasks completed today
 🗓️ 0 tasks completed this week
-✅ 1,241 tasks completed till now
+✅ 1,258 tasks completed till now
 ⌛ Longest streak is 6 days
 ```
 

@@ -10,9 +10,6 @@
         "email": "vasanth@vasanthdeveloper.com",
         "url": "https://vsnth.dev"
     },
-    "engines": {
-        "node": ">=18.x"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/vsnthdev/vsnthdev.git"
