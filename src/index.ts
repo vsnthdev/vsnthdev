@@ -4,4 +4,8 @@
  *  Created On 29 May 2023
  */
 
-console.log('hello 👋')
+import { showHeader } from './showHeader.js'
+import { profile, fetchProfile } from './fetchProfile.js'
+
+const spinner = await fetchProfile()
+await showHeader(spinner)
