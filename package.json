@@ -3,7 +3,7 @@
     "description": "My portfolio ✨ for command-line 🧙‍♂️ wizards.",
     "type": "module",
     "license": "Zlib",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "bin": "dist/index.js",
     "author": {
         "name": "Vasanth Srivatsa",
