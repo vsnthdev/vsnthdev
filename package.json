@@ -1,0 +1,26 @@
+{
+    "name": "vsnthdev",
+    "description": "My portfolio ✨ for command-line 🧙‍♂️ wizards.",
+    "version": "0.0.0",
+    "license": "Zlib",
+    "type": "module",
+    "author": {
+        "name": "Vasanth Srivatsa",
+        "url": "https://vsnth.dev",
+        "email": "hey@vsnth.dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vsnthdev/vsnthdev.git"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "rimraf dist && tsc",
+        "dev": "rimraf dist && tsc -w"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.5",
+        "rimraf": "^5.0.1",
+        "typescript": "^5.0.4"
+    }
+}
