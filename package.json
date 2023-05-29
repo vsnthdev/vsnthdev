@@ -1,9 +1,10 @@
 {
     "name": "vsnthdev",
     "description": "My portfolio ✨ for command-line 🧙‍♂️ wizards.",
-    "version": "0.0.0",
-    "license": "Zlib",
     "type": "module",
+    "license": "Zlib",
+    "version": "0.0.0",
+    "bin": "dist/index.js",
     "author": {
         "name": "Vasanth Srivatsa",
         "url": "https://vsnth.dev",
