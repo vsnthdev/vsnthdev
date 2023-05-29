@@ -42,7 +42,10 @@ export function showHeader(spinner: Ora) {
         borderColor: 'yellowBright'
     })
 
+    const white = chalk.rgb(255, 255, 255)
+
     spinner.stop()
     console.clear()
     console.log(render)
+    console.log(`\n💡 ${chalk.bold(white('Tip:'))} Hold ${chalk.blueBright('ctrl/cmd')} & ${chalk.blueBright('click')} on the above links.\n`)
 }
