@@ -10,6 +10,6 @@ import { fetchProfile } from './fetchProfile.js'
 import { fetchArticles } from './fetchArticles.js'
 
 fetchArticles()
-const spinner = await fetchProfile()
+export const spinner = await fetchProfile()
 await showHeader(spinner)
 await showPrompts()

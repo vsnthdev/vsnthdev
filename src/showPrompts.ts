@@ -7,6 +7,8 @@ import open from 'open'
 import chalk from 'chalk'
 import prompts from 'prompts'
 import { articles } from './fetchArticles.js'
+import { showHeader } from './showHeader.js'
+import { spinner } from './index.js'
 
 export async function showPrompts() {
     const { menu } = await prompts({
@@ -59,7 +61,17 @@ export async function showPrompts() {
             }))
         })
 
-        await open(`https://vasanthdeveloper.com/${slug}`)
+        if (slug) {
+            await open(`https://vasanthdeveloper.com/${slug}`)
+        }
+
+        showHeader(spinner)
+        await showPrompts()
+    }
+
+    if (!menu) {
+        showHeader(spinner)
+        console.log('Thanks for checking out! Bye 👋')
         process.exit(0)
     }
 }
