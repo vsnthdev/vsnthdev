@@ -16,22 +16,21 @@
     },
     "scripts": {
         "clean": "rimraf dist",
-        "build": "rimraf dist && tsc",
-        "dev": "rimraf dist && tsc -w"
+        "build": "rimraf dist && tsc"
     },
     "devDependencies": {
-        "@types/ansi-align": "^3.0.0",
-        "@types/node": "^20.4.0",
-        "@types/prompts": "^2.4.4",
-        "rimraf": "^5.0.1",
-        "typescript": "^5.1.6"
+        "@types/ansi-align": "^3.0.4",
+        "@types/node": "^20.10.5",
+        "@types/prompts": "^2.4.9",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.3.3"
     },
     "dependencies": {
         "ansi-align": "^3.0.1",
         "boxen": "^7.1.1",
         "chalk": "^5.3.0",
-        "open": "^9.1.0",
-        "ora": "^6.3.1",
+        "open": "^10.0.1",
+        "ora": "^8.0.0",
         "prompts": "^2.4.2"
     }
 }
